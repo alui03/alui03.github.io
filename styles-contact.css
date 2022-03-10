@@ -60,7 +60,7 @@ html, body {
   width: 100%;
   padding: 0;
   margin: 0;
-  background: url(images/bricks_bg.jpg)
+  background: url(images/coffee\ shop.jpeg )
 		center center fixed no-repeat;
 	background-size: cover;
 	
@@ -71,25 +71,28 @@ html, body {
     width: 800px;
 	padding: 2%;
     margin: 100px auto;
- 	background: rgba(0, 150, 178, .75); /*this uses opacity of 75% for the background color*/
 	text-align: center;
-	border: 4px dashed white;
+	/* removed -- border: 4px dashed white;
+	   background: rgba(265, 265, 265, .50); 
+	*/
 }
 
    
 #logo {
-    margin-bottom: 16px;
-	border: 3px dashed red;
+	margin-top: 40px;
+    margin-bottom: 50px;
 	text-align: center;
+	/* removed -- red dash;
+	*/
 }
 
 h1 {
-	font-family: bely-display, sans-serif;
+	font-family: bely, serif;
 	font-weight: 400;
 	font-style: normal;
 	font-size: 2em;
     margin: 0px auto 10px auto;
-    color: #fff;
+    color: #000000;
 }
 
 h2 {
@@ -98,7 +101,7 @@ h2 {
 	font-style: normal;
 	font-size: 1.5em;
     line-height: 1.4;
-    color: #fff;
+    color: #000000;
     padding: 0px 0px;
     margin: 0px auto 25px auto;
 }
@@ -107,15 +110,14 @@ p {
 	font-family: bely, serif;		
 	font-size: 1.2em;
     line-height: 1.6;
-    color: #fff;
+    color: #000000;
 }
 
 nav{
 	font-family: bely, serif;
-	font-size: 1.2em;
+	font-size: 0.6em;
 	width: 400px;
 	margin: 0 auto;
-	border: dashed papayawhip;
 	border-width: 3px 0;
 	text-align: center;
 	margin-top: 2em;
@@ -127,16 +129,16 @@ nav li{
 	
 nav a{
 	display: inline-block;
-	padding: 10 px;	
+	padding: 20px;
+	
 	}
 
 a{
-	color:aliceblue;
+	color:#000000;
 	text-decoration: none;
 	font-weight: bold;
 	}
 a:hover{
-	color:black;
-	background:maroon;
+	color:#ccd6c3;
 	}
 
