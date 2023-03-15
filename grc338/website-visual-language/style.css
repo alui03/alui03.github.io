@@ -229,6 +229,22 @@ button{
 
 @media screen and (min-width: 60em) {
 
+    body{
+        background-color: #CBCBCB;
+    }
+    
+    div.home-container {
+        margin: auto;
+        max-width: 95em;
+        
+    }
+    
+    div.container{
+        margin: auto;
+        max-width: 95em;
+        background-color: #FFFFFF;
+    }
+    
     main{
         margin: 0em 5em;
     }
