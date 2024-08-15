@@ -1,0 +1,202 @@
+/*CSS document*/
+
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;}
+
+
+
+img {
+    width: 100%;
+    display: block;
+}
+
+figure {
+    margin: 0em;
+    padding: 0em;
+}
+	
+div.container {
+    max-width: 40em;
+  	margin: auto;  
+}
+
+body {
+	font-family: sans-serif;
+	line-height: 1.4em;
+	color: #222;
+	background-color: #fafafa;
+	box-sizing: border-box;
+}
+
+header {
+	margin: 0.2em;
+	padding: 0.2em;
+}
+
+h1 {
+	width: 6em; 
+	margin: 1em 0em;
+	}
+
+h2 {
+	font-family: serif;
+	font-size: 2.5em;
+	font-weight:bolder;
+	margin: 0.4em 0.2em 0.3em;
+	color: #5C7696;
+}
+
+section.secondary h2 {
+	font-size: 1.8em;
+	margin: 0.4em 0.2em 0.3em;
+}
+
+section.tertiary {
+	margin: 2em 0.5em 0em;
+	border-top-style: solid;
+	border-top-width: thin;
+	border-top-color: #5C7696;
+}
+
+section.tertiary h2 {
+	font-size: 1.2em;
+	margin: 0.5em 0.1em 0em;
+}
+
+section.tertiary p {
+	margin: 0em 0.1em 1em;
+}
+
+p {
+	margin: 0em 0em 2em 0.5em;
+	line-height: 1.2em;
+	color: #000000;
+}
+
+a {
+	text-decoration:none;
+	}
+
+nav ul {
+	list-style-type: none;
+	margin-bottom: 1em;
+	
+}
+
+nav ul li a{
+	color: #5C7696;
+	font-weight: bold;
+    }
+
+figcaption {
+	font-style: italic;
+	color: #616161;
+	margin: 0.4em 0.5em 1.2em;
+	line-height: 1.2em;
+}
+
+article.main-story h2 {
+	margin: 1.2em 0.2em 0.7em;
+}
+
+article.main-story p {
+	margin-bottom: 1em;
+}
+
+aside {
+	background-color: #CBCFFB;
+	padding-bottom: 1em;
+}
+
+aside figure {
+	padding: 1em 0.5em 0em;
+}
+
+aside h2 {
+	font-size: 1.2em;
+	padding: 0em 0.2em;
+}
+
+footer {
+	padding: 0.5em 0em 0.5em;
+	background-color: #5C7696;
+}
+
+footer p {
+	color: #FFFFFF;
+	margin: 0.5em 0.5em;
+}
+
+
+
+
+@media screen and (min-width: 40em) {
+	
+header {
+	margin: 0em;
+	padding: 0em;
+}
+
+h2 {
+	font-family: serif;
+	font-size: 2.5em;
+	font-weight:bolder;
+	margin: 0.4em 0em 0.3em;
+	color: #5C7696;
+}
+	
+p {
+	margin: 0em 0em 2em 0em;
+	line-height: 1.2em;
+	color: #000000;
+}
+	
+section.secondary h2 {
+	font-size: 1.8em;
+	margin: 0.4em 0em 0.3em;
+}
+
+section.tertiary {
+	margin: 2em 0em 0em;
+	border-top-style: solid;
+	border-top-width: thin;
+	border-top-color: #5C7696;
+}
+
+figcaption {
+	font-style: italic;
+	color: #616161;
+	margin: 0.4em 0em 1.2em;
+	line-height: 1.2em;
+}
+	
+article.main-story h2 {
+	margin: 1.2em 0em 0.7em;
+}
+
+	
+nav ul {
+	list-style-type: none;
+	margin-bottom: 1em;
+}
+
+nav ul li {
+	display: inline;
+	margin-right: 1em;
+}
+	
+nav ul li a{
+	color: #5C7696;
+	font-weight: bold;
+}
+	
+aside h2 {
+	font-size: 1.2em;
+	padding: 0em 0.5em;
+}
+	
+aside p {
+	padding: 0em 0.5em;
+	}
+
+	
+}
