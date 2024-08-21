@@ -14,7 +14,7 @@ figure {
     padding: 0em;
 }
 	
-div.container {
+div.container, div.home-container {
     max-width: 40em;
   	margin: auto;  
 }
@@ -137,66 +137,153 @@ header {
 }
 
 h2 {
-	font-family: serif;
-	font-size: 2.5em;
-	font-weight:bolder;
 	margin: 0.4em 0em 0.3em;
-	color: #5C7696;
 }
 	
 p {
 	margin: 0em 0em 2em 0em;
-	line-height: 1.2em;
-	color: #000000;
 }
 	
 section.secondary h2 {
-	font-size: 1.8em;
 	margin: 0.4em 0em 0.3em;
 }
 
 section.tertiary {
 	margin: 2em 0em 0em;
-	border-top-style: solid;
-	border-top-width: thin;
-	border-top-color: #5C7696;
 }
 
 figcaption {
-	font-style: italic;
-	color: #616161;
 	margin: 0.4em 0em 1.2em;
-	line-height: 1.2em;
 }
 	
 article.main-story h2 {
 	margin: 1.2em 0em 0.7em;
 }
 
-	
-nav ul {
-	list-style-type: none;
-	margin-bottom: 1em;
-}
-
 nav ul li {
 	display: inline;
 	margin-right: 1em;
 }
-	
-nav ul li a{
-	color: #5C7696;
-	font-weight: bold;
-}
-	
+		
 aside h2 {
-	font-size: 1.2em;
 	padding: 0em 0.5em;
 }
 	
 aside p {
 	padding: 0em 0.5em;
+	}	
+}
+
+
+@media screen and (min-width: 60em) {
+	
+	div.home-container {
+		max-width: 80em;
+		padding: 0 1em;
+		display: grid;
+		grid-template-columns: 3fr 1fr;
+		grid-gap: 1em;
 	}
 
+	div.container {
+		max-width: 60em;
+		padding: 0 1em;
+		display: grid;
+		grid-template-columns: 3fr 1fr;
+		grid-gap: 1em;
+	}
 	
+	header, footer {
+		grid-column: 1/3;
+	}
+	
+	div.home-container main{
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-gap: 1em;
+	}
+	
+	div.home-container aside {
+		background: none;
+		padding: 0;
+		margin-top: 0;
+	}
+	
+	div.container aside {
+		margin-top: 0;
+	}
+	
+	section.main-story {
+		grid-column: 2/4;
+		grid-row: 1/3;
+		display: flex;
+	}
+	
+	section.main-story a {
+		flex: 1 0 12em;
+		display: flex;
+		flex-direction: column;
+	}
+	
+	section.main-story a figure {
+		flex: 1 0 12em; 
+		display: flex;
+	}
+	
+	section.main-story a figure img {
+		object-fit: cover;
+	}
+	
+	section.main-story a h2  {
+		flex: 0 0 1em; 
+	}
+	
+	section.main-story a p {
+		flex: 0 0 4em; 
+	}
+	
+	
+	section.secondary {
+		display: flex;
+	}
+	
+	section.secondary a {
+		flex: 1 0 12em;
+		display: flex;
+		flex-direction: column;
+	}
+	
+	section.secondary a figure {
+		flex: 1 0 12em; 
+		display: flex;
+	}
+	
+	section.secondary a figure img {
+		object-fit: cover;
+	}
+	
+	section.secondary a h2  {
+		flex: 0 0 1em; 
+	}
+	
+	section.secondary a p {
+		flex: 0 0 4em; 
+	}
+	
+	section.tertiary {
+		margin: 0em;
+		border-top-style: solid;
+		border-top-width: thin;
+		border-top-color: #5C7696;
+	}
+	
+	section.tertiary h2 {
+		margin: 0.5em 0em 0em;
+		padding: 0;
+	}
+
+	section.tertiary p {
+		margin: 0em 0em 1em;
+		padding: 0;
+	}
 }
