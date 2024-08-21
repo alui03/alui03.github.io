@@ -267,6 +267,7 @@ aside p {
 	}
 	
 	section.secondary a p {
+		margin: 0;
 		flex: 0 0 4em; 
 	}
 	
