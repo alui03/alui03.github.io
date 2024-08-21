@@ -272,9 +272,6 @@ aside p {
 	
 	section.tertiary {
 		margin: 0em;
-		border-top-style: solid;
-		border-top-width: thin;
-		border-top-color: #5C7696;
 	}
 	
 	section.tertiary h2 {
