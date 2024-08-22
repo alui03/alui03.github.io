@@ -53,7 +53,7 @@ section.secondary h2 {
 section.tertiary {
 	margin: 2em 0.5em 0em;
 	border-top-style: solid;
-	border-top-width: thin;
+	border-top-width: 1px;
 	border-top-color: #5C7696;
 }
 
