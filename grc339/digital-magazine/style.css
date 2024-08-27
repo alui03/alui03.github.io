@@ -20,10 +20,10 @@ div.container, div.home-container {
 }
 
 body {
-	font-family: sans-serif;
+	font-family: Bilo;
 	line-height: 1.4em;
 	color: #222;
-	background-color: #fafafa;
+	background-color: #FFF7EE;
 	box-sizing: border-box;
 }
 
@@ -33,20 +33,21 @@ header {
 }
 
 h1 {
-	width: 6em; 
+	width: 12em; 
 	margin: 1em 0em;
 	}
 
 h2 {
-	font-family: serif;
+	font-family: The Seasons;
 	font-size: 2.5em;
-	font-weight:bolder;
+	font-weight:bold;
 	margin: 0.4em 0.2em 0.3em;
-	color: #5C7696;
+	color: #918F78;
+	line-height: 1em;
 }
 
 section.secondary h2 {
-	font-size: 1.8em;
+	font-size: 1.5em;
 	margin: 0.4em 0.2em 0.3em;
 }
 
@@ -54,11 +55,11 @@ section.tertiary {
 	margin: 2em 0.5em 0em;
 	border-top-style: solid;
 	border-top-width: 1px;
-	border-top-color: #5C7696;
+	border-top-color: #918F78;
 }
 
 section.tertiary h2 {
-	font-size: 1.2em;
+	font-size: 1.3em;
 	margin: 0.5em 0.1em 0em;
 }
 
@@ -83,7 +84,7 @@ nav ul {
 }
 
 nav ul li a{
-	color: #5C7696;
+	color: #AA968A;
 	font-weight: bold;
     }
 
@@ -99,12 +100,17 @@ article.main-story h2 {
 }
 
 article.main-story p {
+	line-height: 1.3em;
 	margin-bottom: 1em;
 }
 
 aside {
-	background-color: #CBCFFB;
+	background-color: #B8B7A8;
 	padding-bottom: 1em;
+}
+
+aside.main-story h2 {
+	color: #55554A;
 }
 
 aside figure {
@@ -118,7 +124,7 @@ aside h2 {
 
 footer {
 	padding: 0.5em 0em 0.5em;
-	background-color: #5C7696;
+	background-color: #AA968A;
 }
 
 footer p {
@@ -167,6 +173,7 @@ nav ul li {
 		
 aside h2 {
 	padding: 0em 0.5em;
+	color: #918F78;
 }
 	
 aside p {
@@ -260,6 +267,7 @@ aside p {
 	
 	section.secondary a figure img {
 		object-fit: cover;
+		
 	}
 	
 	section.secondary a h2  {
@@ -276,7 +284,7 @@ aside p {
 	}
 	
 	section.tertiary h2 {
-		margin: 0.5em 0em 0em;
+		margin: 0.5em 0em 0.3em;
 		padding: 0;
 	}
 
