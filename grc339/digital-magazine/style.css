@@ -105,8 +105,10 @@ article.main-story p {
 }
 
 aside {
-	background-color: #B8B7A8;
 	padding-bottom: 1em;
+}
+aside.main-story {
+	background-color: #B8B7A8;
 }
 
 aside.main-story h2 {
@@ -157,6 +159,7 @@ section.secondary h2 {
 section.tertiary {
 	margin: 2em 0em 0em;
 }
+
 
 figcaption {
 	margin: 0.4em 0em 1.2em;
