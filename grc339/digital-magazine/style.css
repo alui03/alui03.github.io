@@ -268,7 +268,7 @@ main.newsletter h3 {
 	font-size: 1.1em;
 	font-weight: bold;
 	color: #AA968A;
-	margin: 2em 0em 1em;
+	margin: 1em 0em 1em;
 }
 
 div.newsletter img {
@@ -439,14 +439,8 @@ button[type="subscribe"]:hover {
     	border-radius: 0.5em; 
     	flex-shrink: 0;
 	}
-	
-	
-	
-
-
 
 }
-
 
 
 @media screen and (min-width: 60em) {
