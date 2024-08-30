@@ -253,7 +253,7 @@ div.photo-gallery input {
 }
 
 main.newsletter {
-    padding: 0.5em;
+    padding: 0em 0.5em;
 }
 
 main.newsletter p {
@@ -261,7 +261,7 @@ main.newsletter p {
 }
 
 main.newsletter h2 {
-	margin: 0.3em 0em;
+	margin: 0.8em 0em 0.3em;
 }
 
 main.newsletter h3 {
@@ -272,11 +272,7 @@ main.newsletter h3 {
 }
 
 div.newsletter img {
-    width: 100%;
-    height: auto;
-    object-fit: cover; 
-    aspect-ratio: 3/1;
-	padding: 1.5em 0em;
+	padding: 0.5em 0em 0em;
 }
 
 main.newsletter ul {
@@ -341,7 +337,7 @@ section.newsletter-type ul {
 }
 
 section.newsletter-type ul li {
-	flex: 1 0 20em;
+	flex: 1 0 15em;
 }
 
 section.content-type ul {
@@ -350,7 +346,7 @@ section.content-type ul {
 }
 
 section.content-type ul li {
-	flex: 1 0 20em;
+	flex: 1 0 15em;
 }
 
 section.frequency ul {
@@ -359,7 +355,7 @@ section.frequency ul {
 }
 
 section.frequency ul li {
-	flex: 1 0 20em;
+	flex: 1 0 15em;
 }
 
 button[type="subscribe"] {
@@ -439,8 +435,14 @@ button[type="subscribe"]:hover {
     	border-radius: 0.5em; 
     	flex-shrink: 0;
 	}
+	
+	
+	
+
+
 
 }
+
 
 
 @media screen and (min-width: 60em) {
