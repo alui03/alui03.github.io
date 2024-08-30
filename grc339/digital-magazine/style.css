@@ -337,7 +337,7 @@ section.newsletter-type ul {
 }
 
 section.newsletter-type ul li {
-	flex: 1 0 15em;
+	flex: 1 0 20em;
 }
 
 section.content-type ul {
@@ -346,7 +346,7 @@ section.content-type ul {
 }
 
 section.content-type ul li {
-	flex: 1 0 15em;
+	flex: 1 0 20em;
 }
 
 section.frequency ul {
@@ -355,7 +355,7 @@ section.frequency ul {
 }
 
 section.frequency ul li {
-	flex: 1 0 15em;
+	flex: 1 0 20em;
 }
 
 button[type="subscribe"] {
